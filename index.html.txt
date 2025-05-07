@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecionando...</title>
+  <script>
+    window.onload = function () {
+      const links = [
+        "https://meuplano2.tim.com.br/home",  // substitua com seus links reais
+        "https://www.claro.com.br/",
+        "https://vivo.com.br/"
+      ];
+      const escolhido = links[Math.floor(Math.random() * links.length)];
+      window.location.href = escolhido;
+    };
+  </script>
+</head>
+<body>
+  <p>Redirecionando para o teste...</p>
+</body>
+</html>
